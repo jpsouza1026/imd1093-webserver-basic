@@ -6,7 +6,7 @@ app.use(express.json());
 let dispositivos = {}
 
 app.get("/", (req, res) => {
-  res.send(`Bem vindo ao IoT Jose Pires`);
+  res.send(`Bem vindo ao IoT Jose Pires!`);
 });
 
 app.get("/devices", (req, res) => {
